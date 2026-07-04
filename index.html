@@ -1,93 +1,216 @@
 <!DOCTYPE html>
 <html lang="fr-CA">
+
 <head>
+
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <title>Bouquinerie Perle Noire</title>
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+
 <style>
+
+:root{
+
+--navy:#111822;
+--slate:#293340;
+--gold:#B88A3A;
+--beige:#C8BDB0;
+--cream:#F2EEE7;
+
+}
+
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
 
 body{
-    font-family: Georgia, serif;
-    background:#0f0f10;
-    color:#f3f3f3;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    min-height:100vh;
-    text-align:center;
-    padding:30px;
+
+background:linear-gradient(180deg,var(--navy),#1b222b);
+
+font-family:Montserrat,sans-serif;
+
+color:var(--cream);
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+min-height:100vh;
+
+padding:40px;
+
 }
 
 .container{
-    max-width:700px;
+
+max-width:760px;
+
+text-align:center;
+
 }
 
 h1{
-    font-size:3rem;
-    color:#d4af37;
-    margin-bottom:10px;
-    letter-spacing:2px;
+
+font-family:"Playfair Display",serif;
+
+font-size:4rem;
+
+font-weight:700;
+
+letter-spacing:2px;
+
+color:var(--gold);
+
+line-height:1.1;
+
+margin-bottom:20px;
+
 }
 
 .tagline{
-    font-style:italic;
-    font-size:1.3rem;
-    color:#d6c48d;
-    margin-bottom:40px;
+
+font-family:"Playfair Display",serif;
+
+font-size:1.5rem;
+
+font-style:italic;
+
+color:var(--beige);
+
+margin-bottom:50px;
+
+}
+
+.divider{
+
+width:90px;
+
+height:2px;
+
+background:var(--gold);
+
+margin:35px auto;
+
+}
+
+h2{
+
+font-family:"Playfair Display",serif;
+
+font-size:2rem;
+
+margin-bottom:25px;
+
+color:var(--cream);
+
 }
 
 p{
-    font-size:1.15rem;
-    line-height:1.8;
-    color:#dddddd;
-}
 
-hr{
-    border:none;
-    border-top:1px solid #444;
-    margin:35px auto;
-    width:120px;
+font-size:1.1rem;
+
+line-height:1.9;
+
+color:#dddddd;
+
+margin-bottom:18px;
+
 }
 
 .buttons{
-    margin-top:35px;
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    gap:15px;
+
+margin-top:45px;
+
+display:flex;
+
+justify-content:center;
+
+flex-wrap:wrap;
+
+gap:18px;
+
 }
 
 .button{
-    text-decoration:none;
-    background:#d4af37;
-    color:#111;
-    padding:14px 24px;
-    border-radius:30px;
-    font-weight:bold;
-    transition:.25s;
+
+padding:15px 28px;
+
+background:var(--gold);
+
+color:white;
+
+text-decoration:none;
+
+border-radius:40px;
+
+font-weight:600;
+
+transition:.25s;
+
 }
 
 .button:hover{
-    background:#f0cc59;
-    transform:translateY(-2px);
+
+transform:translateY(-3px);
+
+filter:brightness(110%);
+
 }
 
 .email{
-    margin-top:35px;
-    color:#cfcfcf;
+
+margin-top:40px;
+
+font-size:1rem;
+
+color:var(--beige);
+
 }
 
-.footer{
-    margin-top:45px;
-    font-size:.95rem;
-    color:#888;
+footer{
+
+margin-top:55px;
+
+font-size:.9rem;
+
+color:#8c8c8c;
+
+letter-spacing:1px;
+
 }
+
+@media(max-width:700px){
+
+h1{
+
+font-size:2.8rem;
+
+}
+
+h2{
+
+font-size:1.6rem;
+
+}
+
+.tagline{
+
+font-size:1.2rem;
+
+}
+
+}
+
 </style>
 
 </head>
@@ -99,44 +222,69 @@ hr{
 <h1>Bouquinerie<br>Perle Noire</h1>
 
 <div class="tagline">
+
 Chaque livre cache un trésor.
+
 </div>
 
+<div class="divider"></div>
+
+<h2>⚓ Le coffre n'est pas encore ouvert…</h2>
+
 <p>
-Notre site est actuellement en préparation.
+
+L'équipage de la Bouquinerie Perle Noire est actuellement à la recherche de nouveaux trésors à ajouter aux rayons.
+
 </p>
 
-<p style="margin-top:15px;">
-En attendant son lancement, suivez-nous sur Facebook pour découvrir nos nouveautés,
-nos coups de cœur et les trésors qui passent entre nos mains.
+<p>
+
+Romans, bandes dessinées, mangas, littérature jeunesse, ouvrages rares ou oubliés… nous croyons que chaque livre mérite une seconde vie.
+
 </p>
 
-<hr>
+<p>
+
+Notre site sera bientôt en ligne. En attendant, embarquez avec nous sur Facebook pour suivre nos trouvailles et les nouveautés.
+
+</p>
 
 <div class="buttons">
 
 <a class="button"
+
 href="https://www.facebook.com/share/18rSe9G6R2/?mibextid=wwXIfr"
+
 target="_blank">
-Facebook
+
+Suivre sur Facebook
+
 </a>
 
 <a class="button"
+
 href="mailto:bonjour@bouquinerieperlenoire.ca">
+
 Nous écrire
+
 </a>
 
 </div>
 
 <div class="email">
-📧 bonjour@bouquinerieperlenoire.ca
+
+bonjour@bouquinerieperlenoire.ca
+
 </div>
 
-<div class="footer">
-Ouverture prochaine
-</div>
+<footer>
+
+OUVERTURE PROCHAINE
+
+</footer>
 
 </div>
 
 </body>
+
 </html>
